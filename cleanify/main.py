@@ -1,5 +1,5 @@
-
 """
+
  This project is protected by the following license
  --
 
@@ -28,7 +28,7 @@ import os
 import klembord
 
 def cleanify(args):
-    """Strips newlines, tabs from a file and copies it to the clipboard
+    """Strips all newlines, tabs from a file and copies it to the clipboard
 
     Args:
         args (Namespace): parsed CLI flags from argparse
@@ -43,7 +43,7 @@ def cleanify(args):
     klembord.set_text(cleanedText) # Adding final str to clipboard
 
 def main():
-    "Creates parser and calls cleanify with args"
+    """Creates parser and calls cleanify with args"""
     # Setting up parser
     parser = argparse.ArgumentParser(
         description="Copy a file's contents to your clipboard while removing newlines.")
