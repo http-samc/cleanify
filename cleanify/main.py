@@ -1,3 +1,4 @@
+
 """
  This project is protected by the following license
  --
@@ -42,8 +43,7 @@ def cleanify(args):
     klembord.set_text(cleanedText) # Adding final str to clipboard
 
 def main():
-    """Creates parser and calls cleanify with args
-    """
+    "Creates parser and calls cleanify with args"
     # Setting up parser
     parser = argparse.ArgumentParser(
         description="Copy a file's contents to your clipboard while removing newlines.")

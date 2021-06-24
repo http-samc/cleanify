@@ -1,7 +1,8 @@
+
 """
  This project is protected by the following license
  --
- 
+
   MIT License
   Copyright (c) 2021 http-samc
   Permission is hereby granted, free of charge, to any person obtaining a copy
