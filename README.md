@@ -1,4 +1,4 @@
-# cleanify [![PyPI version](https://badge.fury.io/py/cleanify.svg)](https://badge.fury.io/py/cleanify)
+# cleanify [![PyPI version](https://badge.fury.io/py/cleanify.svg)](https://badge.fury.io/py/cleanify) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ea4c058a4f684790a4e1e8aa31845e7e)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=http-samc/cleanify&amp;utm_campaign=Badge_Grade)
 CLI utility to remove remove newlines, tabs from a file and copy it to your clipboard
 - Pure 🐍 with only [klembord](https://pypi.org/project/klembord/) used in the Tech Stack as a clipboard API
 
